@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+    background-color: #f5f5f5c3;
+    padding: 25px;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgb(27, 30, 197);
+}
+.h2{
+    color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.paragraphs{
+    font-weight: 700;
+    color: #2c21cec3;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    padding:5px;
+}
+
+.mood{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.happy, .sad{
+    height: 150px;
+}
+.mood p{
+    font-weight: 900;
+    font-size: 1.5rem;
+}   
+
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 900;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.repository{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+ol, li{
+    color: darkblue;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
